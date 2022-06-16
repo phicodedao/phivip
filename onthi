@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <div class="icon-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="icon-menu-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">THÔNG TIN TRÒ CHƠI</a></li>
+                    <li><a href="">TRUYỀN THÔNG</a></li>
+                    <li><a href="">TIN TỨC</a></li>
+                    <li><a href="">BẢNG XẾP HẠNG</a></li>
+                    <li><a href="">HỖ TRỢ</a></li>
+                    <li><a href="">THỂ THAO ĐIỆN TỬ</a></li>
+
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="banner"><img src="./img/banner1.jpg" alt=""></div>
+            <h1>TIN TỨC MỚI NHẤT</h1>
+            <div class="content-item">
+                <div class="item">
+                    <img src="./img/item-1.jpg" alt="">
+                    <h3>Cập nhật trò chơi</h3>
+                    <p>VALORANT - Thông Tin Bản Cập Nhật 4.03</p>
+                </div>
+                <div class="item">
+                    <img src="./img/item-2.jpg" alt="">
+                    <h3>Đội ngũ phát triển</h3>
+                    <p>Loạt Bài Viết Về Trạng Thái Hệ Thống Trong VALORANT - <br> Hành Vi Tiêu Cực Trong Chat & Đàm Thoại</p>
+                </div>
+                <div class="item">
+                    <img src="./img/item-3.jpg" alt="">
+                    <h3>Đội ngũ phát triển</h3>
+                    <p>Hiện Trạng Về Các Đặc Vụ - Yoru Phần 2</p>
+                </div>
+            </div>
+            <div class="banner2">
+                <img src="./img/last-banner.jpg" alt="">
+            </div>
+        </main>
+        <footer>
+            <span>© 2021 All Rights Reserved</span>
+            <button type="button" class="btn">ĐĂNG KÝ NGAY</button>
+        </footer>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
